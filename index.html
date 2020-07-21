@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="supercontainer">
+        <h1 id="mainTitle">Dream List</h1>
+
+        <div id="card-container">
+            <div id="container"></div>
+        </div>
+        <!-- <button id="newBook">+</button> -->
+
+    </div>
+    
+    <div id="formcontainer">
+
+        <form id="epic" action="#" method="GET" onsubmit="return false">
+            <!-- <button id="form-cancel" class="remove">X</button> -->
+            <h1 class="addnewitem">Add New Item</h1>
+            <div class="formItem">
+                <input type="text" name="item" id="item" placeholder="Item">
+            </div>
+            <div class="formItem">
+                <input type="text" name="info" id="info" placeholder="Info">
+            </div>
+            <div class="formItem">
+                <input type="number" name="price" id="price" placeholder="Price">
+            </div>
+            <div class="formItem">
+                <input type="checkbox" name="acquired" id="acquired">
+            </div>
+            <label for="acquired">Acquired?</label>
+
+            <div class="formItem">
+                <input type="submit" name="submit" id="submit">
+            </div>
+        </form>
+
+    </div>
+
+    <ul>
+    </ul>
+    <footer>
+      <p>By <a href='https://github.com/nonfaketion'>Nonfaketion</a></p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
