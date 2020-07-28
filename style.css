@@ -3,15 +3,15 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background: #6cf8e5;
+    background: #fffc4d52;
 }
 
 #mainTitle{
-    font-size: 9rem;
+    font-size: 8rem;
     text-align: center;
     line-height: auto;
-    color: #ffffffbb;
-    background: #fffd6d;
+    color: #f0dddd96;
+    background: #fffc4d52;
     margin: auto;
     font-family: 'Niconne', cursive;
     font-weight: 700;
@@ -32,7 +32,7 @@ form{
     flex-direction: row;
 
 }
-  }
+  
   label, input {
     display: block; /* 1. oh noes, my inputs are styled as block... */
   }
@@ -44,9 +44,9 @@ form{
     font-family: 'Epilogue', sans-serif;
     font-size: 18px;
     padding: 0px;
-    border-style: double;
-    border-radius: 8px;
-    border-color: rgb(65, 30, 148);
+    border-style: transparent;
+    border-radius: 0px;
+    border-color: rgb(255, 255, 255);
     height: 27px;
     font-family: 'Niconne', cursive;
   }
@@ -55,12 +55,10 @@ form{
     font-family: 'Niconne', cursive;
     font-size: inherit;
   }
-
-  #submit{
-
-  }
+  
   #submit:hover {
-    opacity: 0.3;
+    opacity: 0.8;
+    color: 4325;
 }
 
 
